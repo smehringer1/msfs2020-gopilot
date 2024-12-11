@@ -3,8 +3,8 @@ set EXEC=gopilot.exe
 set TEMPLATE=./tools/packifier/template.gopher
 set PACKAGE=app
 set FUNCTION=SimConnectDLL
-set DLL_IN="C:/MSFS SDK/SimConnect SDK/lib/SimConnect.dll"
-set DLL_OUT="C:/MSFS SDK/SimConnect SDK/lib/SimConnect.dll"
+set DLL_IN="C:/MSFS 2024 SDK/SimConnect SDK/lib/SimConnect.dll"
+set DLL_OUT="C:/MSFS 2024 SDK/SimConnect SDK/lib/SimConnect.dll"
 
 if exist %EXEC% (
     echo removing old executable
